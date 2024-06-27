@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+    width: 100%;
+    position: relative;
+    display: flex;
+    background-image: url(f.jpeg);
+    background-size: 1750px;
+    background-repeat: no-repeat;
+    
+}
+#menu{
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height: 100%;
+    border-right: 3px solid rgb(0, 0, 0);
+}
+#menu .logo{
+    display: flex;
+    align-items: center;
+    color: #000000;
+    padding: 30px 0 0 30px;
+
+}
+#menu .logo img{
+    width: 45px;
+    margin-right: 15px;
+}
+#menu .items{
+    margin-top: 10px;
+}
+#menu .items li{
+    list-style: none;
+    padding: 15px 0;
+    transition: 0.3s ease;
+    
+}
+#menu .items li:hover{
+    background-color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+#menu .items li:nth-child(1){
+    border-left: 4px solid #ffff;
+}
+#menu .items li i{
+    color: aquamarine;
+    width: 30px;
+    height: 30px;
+    line-height: 100px;
+    text-align: center;
+    font-size: 14px;
+    margin: 0 10px 0 25px;
+}
+#menu .items li img{
+    color: aquamarine;
+    width: 30px;
+    height: 30px;
+    line-height: 100px;
+    
+
+    margin: 0 15px -8px 25px;
+    border-radius: 50px;
+    
+}
+#menu .items li:hover i,
+#menu .items li:hover a{
+    color: orange;
+
+}
+#menu .items li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: 300px;
+    transition: 0.3s ease;
+}
+#interface{
+    width: calc(100% - 300px);
+}
+#interface .navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: orange;
+    padding: 15px 30px;
+ 
+}
+#interface .navigation .search{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 14px;
+    border: 1px solid #d7dbe6;
+    border-radius: 4px;
+}
+#interface .navigation .search i{
+    margin-right: 14px;
+}
+#interface .navigation .search input{
+    border: none;
+    outline: none;
+    font-size: 14px;
+}
+#interface .navigation .profile{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+#interface .navigation .profile i{
+    margin-right: 20px;
+    font-size: 19px;
+    font-weight: 400;
+}
+#interface .navigation .profile img{
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.i-name{
+    color: rgb(254, 101, 11);
+    padding: 30px 30px 0 30px;
+    font-size: 24px;
+    font-weight: 700;
+}
+.values{
+    padding: 30px 30px 0 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.values .val-box {
+    background: #ffffff;
+    width: 235px;
+    padding: 16px 20px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.values .val-box i{
+    font-size: 25px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    color: #ffff;
+    margin-right: 15px;
+}
+.values .val-box img{
+    
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    color: #ffff;
+    margin-left: -80px;
+}
+.values .val-box h3{
+    font-size: 18px;
+    font-weight: 600;
+}
+.values .val-box span{
+    font-size: 15px;
+    color: grey;
+}
+
+.profile{
+    width: 60%;
+    margin-left: 30%;
+    
+}
+h1{
+    font-family: monospace;
+    color: orange;
+    font-size: 1.2rem;
+    margin-top: 40px;
+    margin-bottom: 35px;
+}
+h2{
+    color: black;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-left: 2px;
+    margin-top: 10px;
+
+}
+
+.input{
+    border: 0;
+    border-bottom: 1px solid #3fb6a8;
+    width: 80%;
+    padding: 7px 0;
+    font-size: 1em;
+    color: #060606;
+    outline: none;
+    background-color: transparent;
+}
+.btn{
+    text-transform: uppercase;
+    font-size: 15px;
+    border: 0;
+    color: white;
+    background: black;
+    padding: 7px 15px;
+    box-shadow: 0px 2px 4px 0px rgba(red, green, blue, alpha);
+    cursor: pointer;
+    margin-top: 15px;
+
+}
+.upload img{
+    margin-top: -1000px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-left: 80px;
+    margin-bottom: 60px;
+}
+
+
+
+
+
+.new{
+    background-color: aliceblue;
+    margin-bottom: 1000px;
+}

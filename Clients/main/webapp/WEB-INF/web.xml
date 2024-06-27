@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd" version="6.0">
+  <display-name>Eshop</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>home.jsp</welcome-file>
+  </welcome-file-list>
+  <error-page>
+    <exception-type>java.lang.Exception</exception-type>
+    <location>/Error.jsp</location>
+  </error-page>
+  <!-- <servlet>
+    <description></description>
+    <display-name>DeliveryInsert</display-name>
+    <servlet-name>DeliveryInsert</servlet-name>
+    <servlet-class>web.DeliveryInsert</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DeliveryInsert</servlet-name>
+    <url-pattern>/DeliveryInsert</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>DeliveryDelete</display-name>
+    <servlet-name>DeliveryDelete</servlet-name>
+    <servlet-class>web.DeliveryDelete</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DeliveryDelete</servlet-name>
+    <url-pattern>/DeliveryDelete</url-pattern>
+  </servlet-mapping> -->
+</web-app>
